@@ -1,10 +1,59 @@
-body {
-    background-color:black;
+* {
+    background-color: black;
+    color: silver;
+    font-family: Helvetica;
 }
 
-h1,
-h2,
-p,
+a {
+    color: lime;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+h1 {
+    background-color: green;
+    border: 3px dotted silver;
+    border-radius: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3,
+li,
+p {
+    color: white;
+}
+
+nav {
+    border: 3px dotted silver;
+    border-radius: 15px;
+    font-size: 23px;
+    margin-top: 0px;
+    text-align: center;
+}
+
 ul {
-    color:silver;
+    color: white;
+    list-style: square;
 }
