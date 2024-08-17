@@ -9,16 +9,10 @@ a:hover {
 
 footer {
     font-size: 12px;
-    text-align: center;
-}
-
-header {
-    flex: 1;
 }
 
 h1 {
-    font-family: Papyrus;
-    letter-spacing: 3px;
+    font-weight: bold;
 }
 
 h2 {
@@ -31,12 +25,21 @@ p {
     color: white;
 }
 
+header {
+    flex: 1;
+}
+
+hr {
+    border: 2px solid silver;
+    margin: 50px 0 0 0;
+}
+
 html {
     background-color: black;
     border: 4px solid silver;
     border-radius: 50px;
     color: silver;
-    font-family: Helvetica;
+    font-family: monospace;
     font-size: 16px;
     margin: 3px;
 }
@@ -47,6 +50,7 @@ main {
 }
 
 nav {
+    padding: 45px 0 0 20px;
     flex: 1.5;
     font-weight: bold;
     word-spacing: 40px;
@@ -57,9 +61,41 @@ ul {
     list-style: square;
 }
 
-.headerNavigation {
+.copyright-socialmedia {
     align-items: center;
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 10px 100px 0 100px;
+}
+
+.header-navigation {
+    display: flex;
+    margin: 0 100px;
+}
+
+.socialmedia {
+    height: 35px;
+    width: 35px;
+}
+
+#copyright {
+    flex: 1;
+    text-align: left;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+#rykros {
+    border-radius: 10px;
+    float: left;
+    height: 70px;
+    margin: 0 10px 0 0;
+    width: auto;
+}
+
+#socialmedia {
+    flex: 1;
+    text-align: right;
 }
