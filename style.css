@@ -1,85 +1,84 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 html {
-    background-color: white;
-    color: black;
-    font-family: Tahoma;
+    background-color: black;
+    border: 4px solid silver;
+    border-radius: 50px;
+    color: silver;
+    font-family: monospace;
     font-size: 16px;
-    text-align: center;
+    margin: 3px;
 }
 
 a:link {
-    color: chocolate;
+    color: lime;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
 a:visited {
-    color: chocolate;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: red;
+    color: lime;
     text-decoration: none;
 }
 
 header {
-    background-color: chocolate;
-}
-
-h1 {
-    background-color: white;
-    font-size: 40px;
-    margin: 10px 0;
-    padding: 10px 0 0 0;
-    width: 100%;
+    flex: 1;
 }
 
 nav {
-    margin: 0 0 20px 0;
+    padding: 45px 0 0 20px;
+    flex: 1.5;
+    font-weight: bold;
+    word-spacing: 40px;
+}
+
+h1 {
+    font-weight: bold;
 }
 
 main {
-    margin: 0 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 h2 {
-    font-size: 18px;
+    font-weight: bold;
 }
 
-form {
-    border: 2px solid chocolate;
-    border-radius: 25px;
-    margin: 20px 0;
-    padding: 20px 20px;
-    text-align: left;
+h3,
+li,
+p {
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style: square;
+}
+
+h4 {
+    text-decoration: underline;
 }
 
 footer {
     font-size: 12px;
-    margin: 0 100px 10px 100px;
 }
 
 hr {
-    margin: 20px 0 10px 0;
+    border: 2px solid silver;
+    margin: 50px 0 0 0;
 }
 
-.bullies {
-    border: 2px solid chocolate;
-    border-radius: 25px;
-    height: 300px;
-    width: auto;
+.header-navigation {
+    display: flex;
+    margin: 0 100px;
 }
 
-.sex {
-    float: left;
-    height: 30px;
-    margin: 15px 0 0 0;
-    width: auto;
+.copyright-socialmedia {
+    align-items: center;
+    display: flex;
+    margin: 10px 100px 0 100px;
 }
 
 .socialmedia {
@@ -87,60 +86,22 @@ hr {
     width: 35px;
 }
 
-#usflag {
-    float: left;
-    height: 75px;
-    margin: 6px 0 0 5px;
-    width: auto;
-}
-
-#msstateflag {
-    float: right;
-    height: 75px;
-    margin: 6px 5px 0 0;
-    width: auto;
-}
-
 #logo {
-    height: 150px;
+    height: 100px;
     width: auto;
 }
 
-#quote {
-    font-size: 12px;
-}
-
-#bullies {
-    border-spacing: 20px;
-    margin: 0 auto;
-}
-
-#video {
-    border: 2px solid chocolate;
-    border-radius: 25px;
-    margin: 20px 0;
-}
-
-#contact {
-    margin: 0 250px;
-}
-
-#subject {
-    width: 100%;
-}
-
-#copyright-webmaster-socialmedia {
-    display: flex;
+#rykros {
+    border-radius: 10px;
+    float: left;
+    height: 70px;
+    margin: 0 10px 0 0;
+    width: auto;
 }
 
 #copyright {
     flex: 1;
     text-align: left;
-}
-
-#webmaster {
-    flex: 1;
-    text-align: center;
 }
 
 #socialmedia {
