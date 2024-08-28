@@ -15,7 +15,7 @@
     <li>Grammar corrections.</li>
 </ul>
 <h2>v0.1.0</h2>
-<h3>08-17-2024
+<h3>08-17-2024</h3>
 <ul>
     <li>Official release.</li>
 </ul>
