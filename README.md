@@ -1,4 +1,16 @@
 <h1>changelog</h1>
+<h2>v1.1.0</h2>
+<h3>09-07-2024</h3>
+<ul>
+    <li>Restyled base webpage design.</li>
+    <li>Changed base webpage font style.</li>
+    <li>Added a Phantasy Star IV: The End of the Millennium page with character biographies.</li>
+    <li>Changed "index.html" into a proper landing page.</li>
+    <li>Added a profile page about myself, Ricky "Rykros" Runyon.</li>
+    <li>Added new hyperlinks under "Tools that I Use" in "about.html".</li>
+    <li>Updated navigation menu on base design pages to icons.</li>
+    <li>Enhanced file directories.</li>
+</ul>
 <h2>v0.3.0</h2>
 <h3>08-23-2024</h3>
 <ul>
