@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Nanum Gothic Coding';
+    src: url('./NanumGothicCoding-Regular.ttf') format(truetype), url('./NanumGothicCoding-Bold.ttf') format(truetype);
+}
+
+body {
+    background-color: #000000;
+    color: #c0c0c0;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
+
+a:link {
+    color: #00e100;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #00e100;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #00e100;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #c0c0c0;
+    text-decoration: none;
+}
+
+header {
+    background-color: #000000;
+    border-bottom: 0.1rem solid #c0c0c0;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 6.25rem;
+}
+
+header img {
+    margin-left: 1rem;
+    max-width: 100%;
+    width: auto;
+    max-height: 6rem;
+    height: auto;
+}
+
+nav {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+nav img {
+    margin-left: 1rem;
+    max-width: 100%;
+    width: auto;
+    max-height: 2rem;
+    height: auto;
+}
+
+.blog-article {
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: right;
+    width: 16rem;
+}
+
+main {
+    margin: 6.25rem 0 6rem 0;
+}
+
+.blog,
+.about {
+    margin: 6.75rem 2rem 6rem 2rem;
+}
+
+.blog h1,
+.about h1 {
+    text-align: center;
+}
+
+.about p img {
+    border-radius: 0.5rem;
+    float: left;
+    height: 8rem;
+    margin: 0 1rem 0 0;
+}
+
+main p {
+    line-height: 2rem;
+    text-wrap: pretty;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    clear: none;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.welcome img {
+    margin: 0 2rem 0 1rem;
+    max-width: 100%;
+    width: auto;
+    max-height: 30rem;
+    width: auto;
+}
+
+.welcome-h1-p {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.update {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    clear: none;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.update img {
+    margin: 0 1rem 0 2rem;
+    max-width: 12rem;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+}
+
+.update-h1-p {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    clear: none;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.feature img {
+    margin: 0 2rem 0 1rem;
+    max-width: 12rem;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+}
+
+.feature-h1-p {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+ul {
+    color: #c0c0c0;
+    list-style: square;
+}
+
+footer {
+    background-color: #000000;
+    border-top: 0.1rem solid #c0c0c0;
+    font-size: 0.75rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+footer p {
+    margin-left: 1rem;
+}
+
+footer img {
+    margin-right: 1rem;
+    max-width: 100%;
+    width: auto;
+    max-height: 2rem;
+    height: auto;
+}

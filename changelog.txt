@@ -1,0 +1,27 @@
+v1.1.0
+09-07-2024
+    - Restyled base webpage design.
+    - Changed base webpage font style.
+    - Added a Phantasy Star IV: The End of the Millennium page with character biographies.
+    - Changed "index.html" into a proper landing page.
+    - Added a profile page about myself, Ricky "Rykros" Runyon.
+    - Added new hyperlinks under "Tools that I Use" in "about.html".
+    - Updated navigation menu on base design pages to icons.
+    - Enhanced file directories.
+
+v0.3.0
+08-23-2024
+    - New blog article "Phantasy Star IV: The End of the Millennium".
+    - Coding changes in "index.html", "blog.html", and "style.css".
+    - Various design changes.
+
+v0.2.0
+08-18-2024
+    - Created "blog.html" as a personal blog.
+    - Added metadata to HTML pages.
+    - Restructured "style.css" code.
+    - Grammar corrections.
+
+v0.1.0
+08-17-2024
+    - Official release.
