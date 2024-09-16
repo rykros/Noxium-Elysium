@@ -9,6 +9,7 @@
     <li>Changed the "About Me" page into a resume styled page.</li>
     <li>Grammar corrections.</li>
     <li>Coding corrections.</li>
+</ul>
 <h2>v1.1.0</h2>
 <h3>09-07-2024</h3>
 <ul>
