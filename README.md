@@ -1,4 +1,14 @@
 <h1>changelog</h1>
+<h2>v1.2.0</h2>
+<h3>09-15-2024</h3>
+<ul>
+    <li>Added the "Hunter's Guild" section in the "PSIV" page.</li>
+    <li>Added "Hunter's Guild Clerk" to the character bios page.</li>
+    <li>Added the "Links" page.</li>
+    <li>Redesigned all of the dropdown menus across the "Blog" and "PSIV" pages.</li>
+    <li>Changed the "About Me" page into a resume styled page.</li>
+    <li>Grammar corrections.</li>
+    <li>Coding corrections.</li>
 <h2>v1.1.0</h2>
 <h3>09-07-2024</h3>
 <ul>

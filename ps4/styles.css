@@ -4,7 +4,9 @@
 }
 
 body {
-    background-image: url('./gfx/stars.png');
+    background-image: url('./gfx/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     color: #ffffff;
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 1.25rem;
@@ -42,6 +44,7 @@ header {
     top: 0;
     width: 100%;
     height: 6.25rem;
+    z-index: 99;
 }
 
 header img {
@@ -65,16 +68,117 @@ nav img {
     height: auto;
 }
 
-.ps4-page,
-.bios {
+.dropdown button {
+    background-color: #151515;
+    color: #ffffff;
+    border: 0.1rem solid #c0c0c0;
+    border-radius: 1rem;
     font-family: 'Nanum Gothic Coding', monospace;
-    text-align: right;
-    width: 16rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    min-width: 20rem;
+}
+
+.dropdown a,
+.dropdown span {
+    background-color: #151515;
+    border: 0.1rem dotted #c0c0c0;
+    border-radius: 1rem;
+    display: block;
+    text-align: center;
+    line-height: 1rem;
+    padding: 0.25rem;
+    margin: 0.1rem 0;
+    min-width: 20rem;
+}
+
+.dropdown a:hover {
+    text-decoration: none;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+}
+
+.dropdown:hover .content {
+    display: block;
 }
 
 main {
     text-align: center;
     margin: 6.75rem 0 6rem 0;
+}
+
+.hg-clerk {
+    margin: 6.75rem 2rem 6rem 0rem;
+}
+
+.hg-job {
+    margin: 6.75rem 0rem 6rem 2rem;
+}
+
+.sandworm {
+    image-rendering: pixelated;
+    float: left;
+    margin: 1rem;
+    width: auto;
+    min-height: 7rem;
+    height: auto;
+}
+
+.tinkerbells-dog,
+.dying-boy,
+.daughter {
+    float: left;
+    margin: 0 1rem 0 0;
+    width: auto;
+    max-height: 10rem;
+    height: auto;
+}
+
+.missing-student {
+    image-rendering: pixelated;
+    float: left;
+    margin: 1rem;
+    width: auto;
+    min-height: 7.5rem;
+    height: auto;
+}
+
+.fract-ooze {
+    image-rendering: pixelated;
+    float: left;
+    margin: 1rem;
+    width: auto;
+    min-height: 7.5rem;
+    height: auto;
+}
+
+.stain-life {
+    image-rendering: pixelated;
+    float: left;
+    margin: 1rem;
+    width: auto;
+    min-height: 6rem;
+    height: auto;
+}
+
+.king-rappy {
+    image-rendering: pixelated;
+    float: left;
+    margin: 1rem;
+    width: auto;
+    min-height: 6rem;
+    height: auto;
+}
+
+.hg-job p {
+    line-height: 2rem;
+    text-wrap: pretty;
+    text-align: left;
 }
 
 main p {
@@ -84,10 +188,6 @@ main p {
 
 main img {
     margin: 0 auto;
-}
-
-span {
-    font-size: 1rem;
 }
 
 .bio {
@@ -105,6 +205,32 @@ span {
 .darkforce-tpd {
     width: 20rem;
     height: auto;
+}
+
+.hunters-guild {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.hunters-guild img {
+    flex: auto;
+    height: auto;
+    max-width: 20rem;
+    width: auto;
+    margin-top: 1rem;
+}
+
+.hunters-guild ol {
+    flex: auto;
+    line-height: 1.75rem;
+}
+
+h6 {
+    margin-top: 0;
 }
 
 .span-bold {
