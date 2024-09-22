@@ -1,4 +1,14 @@
 <h1>changelog</h1>
+<h2>v1.3.0</h2>
+<h3>09-22-2024</h3>
+<ul>
+    <li>Redesigned the landing page "index.html."</li>
+    <li>New blog post "Phantasy Star's Cosmic Legacy: The Planets of Algo."</li>
+    <li>Updated Rykros' avatar on the resume.</li>
+    <li>Added more Phantasy Star link banners.</li>
+    <li>Added X social media link.</li>
+    <li>Minor grammar corrections.</li>
+</ul>
 <h2>v1.2.0</h2>
 <h3>09-15-2024</h3>
 <ul>
