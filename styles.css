@@ -108,7 +108,6 @@ main {
 }
 
 .slider {
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -121,7 +120,7 @@ main {
     border-radius: 1rem;
     cursor: pointer;
     object-fit: cover;
-    transition: all ease-in-out 0.5s;
+    transition: width 0.5s ease-in-out;
     width: 5%;
     height: 20rem;
 }
@@ -130,20 +129,23 @@ main {
     width: 20%;
 }
 
-.welcome,
-.update,
-.feature {
+.welcome, .update, .feature {
     position: absolute;
-    display: none;
     text-align: center;
-    padding: 0 2rem 6rem 2rem;
+    padding: 1rem;
+    background-color: #000000cc;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out,
+                visibility 0.5s ease-in-out;
+    height: 50%;
 }
 
 .welcome-img:focus ~ .welcome,
 .update-img:focus ~ .update,
 .feature-img:focus ~ .feature {
-    display: block;
-    margin-top: 20rem;
+    visibility: visible;
+    opacity: 1;
 }
 
 .blog h1,
@@ -156,6 +158,41 @@ main {
 main p {
     line-height: 2rem;
     text-wrap: pretty;
+}
+
+.links-nav {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.links-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+}
+
+.links h3 {
+    margin: 0 auto;
+}
+
+.links h6 {
+    margin: 0 auto 2rem auto;
+}
+
+.links img {
+    border: 0.05rem solid #c0c0c0;
+    height: auto;
+    width: 40rem;
+}
+
+#phantasy-star,
+#software,
+#misc {
+    padding-top: 6.75rem;
+    margin-top: -6.75rem;
 }
 
 .resume-body {

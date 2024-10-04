@@ -1,4 +1,16 @@
 <h1>changelog</h1>
+<h2>v1.4.1</h2>
+<h3>10-3-2024</h3>
+<h4>Bugfixes</h4>
+<ul>
+    <li>Fixed landing page with a new design so the hidden div links are clickable.</li>
+</ul>
+<h4>Updates</h4>
+<ul>
+    <li>Redesigned Links page and added various links.</li>
+    <li>Added Twitch social media and removed Facebook.</li>
+    <li>Slight changes to resume.</li>
+</ul>
 <h2>v1.3.0</h2>
 <h3>09-22-2024</h3>
 <ul>
