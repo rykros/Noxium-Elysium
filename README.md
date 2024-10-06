@@ -1,4 +1,14 @@
 <h1>changelog</h1>
+<h2>V2.1.0</h2>
+<h3>10-6-2024</h3>
+<ul>
+    <li>Complete webpage design overhaul.</li>
+</ul>
+<h2>v1.5.0</h2>
+<h3>10-5-2024</h3>
+<ul>
+    <li>Added certificates to resume.</li>
+</ul>
 <h2>v1.4.1</h2>
 <h3>10-3-2024</h3>
 <h4>Bugfixes</h4>
