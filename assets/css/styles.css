@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #0f0f0f;
-    color: #00e0c0;
+    background-color: hsl(0, 0%, 6%);
+    color: hsl(171, 100%, 44%);
     font-family: 'Nanum Gothic Coding';
     text-wrap: pretty;
     line-height: 1.5rem;
@@ -15,7 +15,7 @@ body {
 a:link,
 a:visited,
 a:active {
-    color: #e0c040;
+    color: hsl(48, 72%, 56%);
     text-decoration: none;
 }
 
@@ -30,14 +30,14 @@ a:active {
 
 .navigation h2,
 .main h2 {
-    background: #0f0f0f;
+    background: hsl(0, 0%, 6%);
     margin-top: -1.25rem;
     padding: 0 0.5rem;
     width: fit-content;
 }
 
 .navigation {
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid hsl(0, 0%, 100%);
     flex-basis: 15%;
     margin-left: auto;
     padding: 0.5rem 1rem;
@@ -50,12 +50,12 @@ a:active {
 
 .navigation ul li::before {
     content: '[ ] ';
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
 }
 
 .navigation .nav-selection::before {
     content: '[X] ';
-    color: #e02060;
+    color: hsl(340, 76%, 50%);
 }
 
 .navigation .nested-list {
@@ -63,7 +63,7 @@ a:active {
 }
 
 .main {
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid hsl(0, 0%, 100%);
     flex-basis: 85%;
     margin-right: auto;
     padding: 0.5rem 1rem;
@@ -78,17 +78,34 @@ a:active {
 }
 
 .main span {
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
 }
 
 .main hr {
     margin-top: 1.75rem;
 }
 
-.main h3 {
-    background: #0f0f0f;
+#main-h3 {
+    background: hsl(0, 0%, 6%);
     margin-top: -1.25rem;
     margin-left: 0.5rem;
+    padding: 0 0.5rem;
+    width: fit-content;
+}
+
+#table-h3 {
+    background: hsl(0, 0%, 6%);
+    margin-top: -1.75rem;
+    margin-left: -0.5rem;
+    padding: 0 0.5rem;
+    width: fit-content;
+}
+
+#combo-h3 {
+    background: hsl(0, 0%, 6%);
+    margin-top: -1.25rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 0.5rem;
     width: fit-content;
 }
@@ -100,7 +117,7 @@ a:active {
 
 .main ul li::before {
     content: '>_ ';
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
 }
 
 .links-nav {
@@ -118,6 +135,20 @@ a:active {
     width: 100%;
 }
 
+.combo-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5rem;
+    width: 100%;
+}
+
+.combo {
+    width: 46%;
+}
+
 .link h4 {
     margin-bottom: 0;
 }
@@ -127,7 +158,7 @@ h6 {
 }
 
 .link img {
-    border: 0.05rem solid #c0c0c0;
+    border: 0.05rem solid hsl(0, 0%, 75%);
     height: auto;
     width: 20rem;
 }
@@ -139,10 +170,11 @@ h6 {
 table {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 td {
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid hsl(0, 0%, 100%);
     padding: 1rem;
 }
 
@@ -151,12 +183,8 @@ td {
     width: 10rem;
 }
 
-#table-h3 {
-    background: #0f0f0f;
-    margin-top: -1.75rem;
-    margin-left: -0.5rem;
-    padding: 0 0.5rem;
-    width: fit-content;
+.tech-column {
+    width: 10rem;
 }
 
 td p {
@@ -164,12 +192,16 @@ td p {
     margin-bottom: 0;
 }
 
+.combo video {
+    width: 30rem;
+}
+
 .top {
     text-align: center;
 }
 
 .footer {
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid hsl(0, 0%, 100%);
     text-align: center;
     margin-top: 1rem;
     padding: 0 1rem;
